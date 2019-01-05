@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="demo-2">
+
+		<main>
+			<div class="content content--side">
+
+				<form class="form" action="" method="">
+					<div class="form__item">
+						<label class="form__label" for="email">Full Name</label>
+						<input class="form__input" type="text" name="name" id="name">
+					</div>
+					<div class="form__item">
+						<label class="form__label" for="email">Email Address</label>
+						<input class="form__input" type="email" name="email" id="email">
+					</div>
+					<div class="form__item">
+						<label class="form__label" for="password">Password</label>
+						<div class="form__input-wrap">
+							<input class="form__input" type="password" name="password" id="password">
+							<p class="form__password-strength" id="strength-output"></p>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="content content--side">
+				<div class="poster" style="background-image:url(img/1.jpg)"></div>
+				<div class="canvas-wrap">
+					<canvas></canvas>
+				</div>
+			</div>
+		</main>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/zxcvbn.js"></script>
+		<script src="js/regseer.js"></script>
+	</body>
+</html>
